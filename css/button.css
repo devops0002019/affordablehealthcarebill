@@ -99,7 +99,7 @@ input[type="submit"]:active,
 
 .link,
 a.link {
-    color: var(--primary);
+    color: var(--primary)!important;
     outline: none;
     text-decoration: none;
 }

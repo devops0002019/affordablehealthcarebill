@@ -3,7 +3,7 @@ document.documentElement.style .setProperty('--secondary', '#ddd');
 document.documentElement.style .setProperty('--tertiary', '#FAFAFA');
 document.documentElement.style .setProperty('--quaternary', '#FAFAFA');
 document.documentElement.style .setProperty('--border', '#d8d8d8');
-document.documentElement.style .setProperty('--page-max-width', '1024px');
+document.documentElement.style .setProperty('--page-max-width', '1366px');
 document.documentElement.style .setProperty('--navbar-background', 'transparent');
 document.documentElement.style .setProperty('--navbar-text-color', 'white');
 document.documentElement.style .setProperty('--header-background', '#5B2971');
@@ -37,8 +37,7 @@ document.documentElement.style .setProperty('--seo-page-title-color', '#fff');
 
 const footer_data = [
    {
-       url1:    "https://www.facebook.com",
-       label1:  "www.mylinks.com",
+       brand:    "Affordable Healthcare Bill",
    }
 ];
 function footer_template(foot) {
@@ -47,7 +46,7 @@ function footer_template(foot) {
      <div class="grid set-cols-1">
        <div class="column">
 
-        <h2 class="copyright"> Copyright (place-here) <span id="year"></span>. All rights reserved </h2>
+        <h2 class="copyright"> Copyright ${foot.brand} <span id="year"></span>. All rights reserved </h2>
 
 
        </div>
