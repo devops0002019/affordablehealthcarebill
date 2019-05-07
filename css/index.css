@@ -34,13 +34,15 @@
 /*Loads menus.css*/
 @import url('menus.css');
 /* loads utilities */
-@import url("utilities.css");
+@import url("typography.css");
 /* loads column */
 @import url("column.css");
 /* loads layouts */
 @import url("layouts.css");
 /* loads responsive_text */
 @import url("responsive_text.css");
+/* loads utilities */
+@import url("utilities.css");
 /* loads core */
 @import url("ui-3-core-v1.0.css");
 

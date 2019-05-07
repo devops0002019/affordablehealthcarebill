@@ -57,7 +57,7 @@ column
     --insert-max-width: 100%;
     --insert-min-width: inherit;
     --insert-height: auto;
-    --insert-min-height: 25vh;
+    --insert-min-height: 100px;
     --insert-max-height: inherit;
     --insert-box-shadow: inherit;
 
@@ -397,7 +397,7 @@ column Helpers
 
 
 [class*="column"].layout-start {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     --insert-align-items: start;
 }
 
@@ -417,6 +417,22 @@ column Helpers
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+
+.start-vertical-around {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
@@ -471,4 +487,19 @@ column Helpers
 
 [class*="column"] > * {
     margin: 0.5em 0px !important;
+}
+
+
+
+
+
+[class*="column"] figure {
+    padding:0  32px 0 0;
+}
+
+
+
+
+.min-height-300 {
+    min-height:300px !important;
 }
