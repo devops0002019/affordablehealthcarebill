@@ -1,3 +1,19 @@
+.padding-16 {
+    padding: 16px!important;
+}
+.padding-32 {
+    padding: 32px!important;
+}
+.padding-64 {
+    padding: 64px!important;
+}
+.padding-128 {
+    padding: 128px!important;
+}
+
+
+
+
 .labels {
     border-radius: 8px;
     padding: 32px;
