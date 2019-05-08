@@ -2171,7 +2171,9 @@ max-width 768px
 }
 
 
-
+#navbar {
+	padding: 1em;
+}
 
 [id*="navbar"] > * {
     color:var(--navbar-text-color);
