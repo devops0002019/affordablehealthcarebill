@@ -27,7 +27,7 @@
     --darkgray: #8C8C8C;
 
     --gray: gray;
-    --black: black;z
+    --black: black;
     --white: white;
     --silver: silver;
     --red: red;
@@ -2233,6 +2233,14 @@ b {
     margin: 0;
     color:var(--seo-page-title-color);
     text-align: center;
+}
+
+.connect{
+	opacity: 0;
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
 }
 
 
