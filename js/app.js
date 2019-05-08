@@ -23,11 +23,16 @@ const footer_data = [
 function footer_template(foot) {
     return `
     <div class="footer">
-     <div class="grid set-cols-1">
+        
        <div class="column">
-        <h2 class="copyright"> Copyright ${foot.brand} <span id="year"></span>. All rights reserved </h2>
+            <h2 class="copyright"> Copyright ${foot.brand} <span id="year"></span>. All rights reserved </h2>
        </div>
-     </div>
+
+        <nav class="nav-menu">
+           <a href="privacy.html">Privacy</a> |
+           <a href="terms.html">Term of Use</a>
+        </nav>
+
     </div>
   `;
 }
